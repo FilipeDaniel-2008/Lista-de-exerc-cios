@@ -12,4 +12,15 @@ public static Estudante[] aprovados(Estudante[] estudantes) {
     }
 
     Estudante[] aprovados = new Estudante[quantidadeAprovados];
+
+    int posicao = 0;
+
+    for (Estudante estudante : estudantes) {
+        if (estudante.calculaMedia() >= 6) {
+            aprovados[posicao] = estudante;
+            posicao++;
+        }
+    }
+
+    return aprovados;
 }
