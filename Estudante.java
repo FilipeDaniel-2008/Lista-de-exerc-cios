@@ -17,4 +17,14 @@ public class Estudante {
             notas[i] = scanner.nextDouble();
         }
     }
+
+    public double calculaMedia() {
+        double soma = 0;
+
+        for (double nota : notas) {
+            soma += nota;
+        }
+
+        return soma / notas.length;
+    }
 }
