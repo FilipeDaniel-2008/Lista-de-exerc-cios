@@ -28,3 +28,11 @@ public class Estudante {
         return soma / notas.length;
     }
 }
+
+public String getNome() {
+    return nome;
+}
+
+public double[] getNotas() {
+    return notas;
+}
