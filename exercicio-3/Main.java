@@ -6,4 +6,10 @@ public static Estudante[] aprovados(Estudante[] estudantes) {
             quantidadeAprovados++;
         }
     }
+
+    if (quantidadeAprovados == 0) {
+        return null;
+    }
+
+    Estudante[] aprovados = new Estudante[quantidadeAprovados];
 }
