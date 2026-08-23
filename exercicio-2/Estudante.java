@@ -48,6 +48,6 @@ public class Estudante {
         return menor;
     }
     public double calculaMedia(int[] pesos) {
-
+    double soma = 0;
     }
 }
