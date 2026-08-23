@@ -49,10 +49,10 @@ public class Estudante {
     }
     
     public double calculaMedia(int[] pesos) {
-    double soma = 0;
-
-    for (int i = 0; i < notas.length; i++) {
-        
+        double soma = 0;
+    
+        for (int i = 0; i < notas.length; i++) {
+            soma += notas[i] * pesos[i];
+        }
     }
-}
 }
