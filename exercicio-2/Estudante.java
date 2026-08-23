@@ -56,5 +56,7 @@ public class Estudante {
             soma += notas[i] * pesos[i];
             somaPesos += pesos[i];
         }
+        
+        return soma / somaPesos;
     }
 }
